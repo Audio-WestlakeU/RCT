@@ -28,22 +28,22 @@ scaler:
 data: # change with your paths if different.
   # NOTE: if you have data in 44kHz only then synth_folder will be the path where
   # resampled data will be placed.
-  synth_folder: "/mnt/v100/shaonian/data/dcase2021/dataset/audio/train/synthetic21_train/soundscapes_16k/"
-  synth_folder_44k: "/mnt/v100/shaonian/data/dcase2021/dataset/audio/train/synthetic21_train/soundscapes/"
-  synth_tsv:  "/mnt/v100/shaonian/data/dcase2021/dataset/metadata/train/synthetic21_train/soundscapes.tsv"
-  weak_folder: "/mnt/v100/shaonian/data/dcase2021/dataset/audio/train/weak_16k/"
-  weak_folder_44k: "/mnt/v100/shaonian/data/dcase2021/dataset/audio/train/weak/"
-  weak_tsv: "/mnt/v100/shaonian/data/dcase2021/dataset/metadata/train/weak.tsv"
-  unlabeled_folder: "/mnt/v100/shaonian/data/dcase2021/dataset/audio/train/unlabel_in_domain_16k/"
-  unlabeled_folder_44k: "/mnt/v100/shaonian/data/dcase2021/dataset/audio/train/unlabel_in_domain/"
-  synth_val_folder: "/mnt/v100/shaonian/data/dcase2021/dataset/audio/validation/synthetic21_validation/soundscapes_16k/"
-  synth_val_folder_44k: "/mnt/v100/shaonian/data/dcase2021/dataset/audio/validation/synthetic21_validation/soundscapes/"
-  synth_val_tsv:  "/mnt/v100/shaonian/data/dcase2021/dataset/metadata/validation/synthetic21_validation/soundscapes.tsv"
-  synth_val_dur: "/mnt/v100/shaonian/data/dcase2021/dataset/metadata/validation/synthetic21_validation/durations.tsv"
-  test_folder: "/mnt/v100/shaonian/data/dcase2021/dataset/audio/validation/validation_16k/"
-  test_folder_44k: "/mnt/v100/shaonian/data/dcase2021/dataset/audio/validation/validation/"
-  test_tsv: "/mnt/v100/shaonian/data/dcase2021/dataset/metadata/validation/validation.tsv"
-  test_dur: "/mnt/v100/shaonian/data/dcase2021/dataset/metadata/validation/validation_durations.tsv"
+  synth_folder: "YOUR_PATH_TO_DCASE/dcase2021/dataset/audio/train/synthetic21_train/soundscapes_16k/"
+  synth_folder_44k: "YOUR_PATH_TO_DCASE/dcase2021/dataset/audio/train/synthetic21_train/soundscapes/"
+  synth_tsv:  "YOUR_PATH_TO_DCASE/dcase2021/dataset/metadata/train/synthetic21_train/soundscapes.tsv"
+  weak_folder: "YOUR_PATH_TO_DCASE/dcase2021/dataset/audio/train/weak_16k/"
+  weak_folder_44k: "YOUR_PATH_TO_DCASE/dcase2021/dataset/audio/train/weak/"
+  weak_tsv: "YOUR_PATH_TO_DCASE/dcase2021/dataset/metadata/train/weak.tsv"
+  unlabeled_folder: "YOUR_PATH_TO_DCASE/dcase2021/dataset/audio/train/unlabel_in_domain_16k/"
+  unlabeled_folder_44k: "YOUR_PATH_TO_DCASE/dcase2021/dataset/audio/train/unlabel_in_domain/"
+  synth_val_folder: "YOUR_PATH_TO_DCASE/dcase2021/dataset/audio/validation/synthetic21_validation/soundscapes_16k/"
+  synth_val_folder_44k: "YOUR_PATH_TO_DCASE/dcase2021/dataset/audio/validation/synthetic21_validation/soundscapes/"
+  synth_val_tsv:  "YOUR_PATH_TO_DCASE/dcase2021/dataset/metadata/validation/synthetic21_validation/soundscapes.tsv"
+  synth_val_dur: "YOUR_PATH_TO_DCASE/dcase2021/dataset/metadata/validation/synthetic21_validation/durations.tsv"
+  test_folder: "YOUR_PATH_TO_DCASE/dcase2021/dataset/audio/validation/validation_16k/"
+  test_folder_44k: "YOUR_PATH_TO_DCASE/dcase2021/dataset/audio/validation/validation/"
+  test_tsv: "YOUR_PATH_TO_DCASE/dcase2021/dataset/metadata/validation/validation.tsv"
+  test_dur: "YOUR_PATH_TO_DCASE/dcase2021/dataset/metadata/validation/validation_durations.tsv"
   audio_max_len: 10
   fs: 16000
   net_subsample: 4

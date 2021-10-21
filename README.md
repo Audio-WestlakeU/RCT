@@ -37,7 +37,8 @@ After complete the above setup, you could add the codes of this repo to the base
 git clone git@github.com:Audio-WestlakeU/RCT-Random-Consistency-Training.git
 ```
 
-To train the model, **DO NOT** forget to change your dataset path to **YOUR_PATH_TO_DESED**. Then, please run:
+To train the model, **DO NOT** forget to change your dataset path in `recipes/dcase2021_task4_baseline/confs/sed_rct.yaml`
+to **YOUR_PATH_TO_DESED**. Then, please run:
 ```bash
 python train_sed_rct.py
 ```

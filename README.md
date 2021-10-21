@@ -9,6 +9,7 @@ Welcome to RCT-Random consistency training! This is the official implementation 
 
 <div  align="center">    
 <image src="/imgs/rct_structure.PNG"  width="500" alt="The structure of RCT" />
+
 RCT: Random Consistency Training
 </div>
 

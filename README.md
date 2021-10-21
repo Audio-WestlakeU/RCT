@@ -1,10 +1,10 @@
 # RCT-Random-Consistency-Training
 
 Welcome to RCT-Random consistency training! This is the official implementation of RCT.
-<div  align="center"> 
+
 [Paper](google.com) :star_struck: | [Issues](https://github.com/Audio-WestlakeU/RCT-Random-Consistency-Training/issues) :sweat_smile:
  | [Lab](https://github.com/Audio-WestlakeU) :hear_no_evil: | [Contact](sao_year@126.com) :kissing_heart:
-</div>
+
 ## Introduction
 
 RCT is a semi-supervised training secheme for Sound Event Detection (SED). But we believe it has a more generalized

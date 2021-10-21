@@ -35,7 +35,7 @@ After complete the above setup, you could add the codes of this repo to the base
 git clone git@github.com:Audio-WestlakeU/RCT-Random-Consistency-Training.git
 ```
 
-To train the model, **DO NOT** forget to change your dataset path to YOUR_PATH_TO_DESED. Then, please run:
+To train the model, **DO NOT** forget to change your dataset path to **YOUR_PATH_TO_DESED**. Then, please run:
 ```bash
 python train_sed_rct.py
 ```
@@ -57,3 +57,11 @@ Of course, we encourage the implementation of other data augmentations to be add
 The result of a single model of RCT is aruond 40.12% and 61.39% for PSDS 1 and PSDS 2.
 You may get higher or lower results according to your choice of seeds.
 
+## Reference
+[1] DESED Dataset: https://github.com/turpaultn/DESED
+
+[2] DCASE2021 Task4 baseline: https://github.com/DCASE-REPO/DESED_task
+
+[3] SpecAug: https://arxiv.org/pdf/1904.08779
+
+[4] FilterAug: https://github.com/frednam93/FilterAugSED

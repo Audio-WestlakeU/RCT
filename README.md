@@ -1,10 +1,10 @@
 # RCT-Random-Consistency-Training
-<hr>
+
 Welcome to RCT-Random consistency training! This is the official implementation of RCT.
 
 
 ## Introduction
-<hr>
+
 RCT is a semi-supervised training secheme for Sound Event Detection (SED). But we believe it has a more generalized
 usage for other applications!
 
@@ -17,7 +17,7 @@ Here, we will only give a lite introduction of the baseline model.
 </div>
 
 ## Training
-<hr>
+
 The training/validation data is obtained from the DCSAE2021 task4 [DESED dataset](https://github.com/turpaultn/DESED).
 The downloading of the dataset is quite complicated, no all data is available for the accesses. So, your testing result might
 be different with an incomplete validation dataset.
@@ -54,4 +54,6 @@ augs:
 Of course, we encourage the implementation of other data augmentations to be added and tested using RCT.
 
 ## Results
-<hr>
+The result of a single model of RCT is aruond 40.12% and 61.39% for PSDS 1 and PSDS 2.
+You may get higher or lower results according to your choice of seeds.
+

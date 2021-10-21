@@ -12,7 +12,7 @@ to [[1]](https://github.com/turpaultn/DESED) and [[2]](https://github.com/DCASE-
 
 Here, we will only give a lite introduction of the baseline model. The structure of RCT is given below:
 
-<embed src="/imgs/flowchart.pdf" />
+<embed src="/imgs/flowchart.pdf" type="application/pdf">
 
 ## 
 

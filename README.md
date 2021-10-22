@@ -58,12 +58,14 @@ Of course, we encourage the implementation of other data augmentations to be add
 ## Results
 The result of a single model of RCT is around 40.12% and 61.39% for PSDS 1 and PSDS 2.
 You may get higher or lower results according to your choice of seeds. We provided the results of two trials: 
+<div align="center">
 
 | Trial num. | Seed | PSDS_1 | PSDS_2 |
-| ---------- | ---- | ------ | ------ |
+| :--------: | :--: | :----: | :----: |
 |     1      |  42  | 39.69% | 61.59% |
 |     2      |   1  | 40.49% | 62.67% |
 |     3      |   2  | 39.50% | 60.03% |
+</div>
 
 
 

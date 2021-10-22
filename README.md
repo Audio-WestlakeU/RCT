@@ -28,7 +28,7 @@ by:
 ```bash
 git clone git@github.com:DCASE-REPO/DESED_task.git
 ```
-Don't forget to configure your environment as their requirements.
+Don't forget to configure your environment by their requirements.
 
 After complete the above setup, you could add the codes of this repo to the baseline repo.
 

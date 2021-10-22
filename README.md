@@ -13,10 +13,10 @@ Welcome to RCT-Random consistency training! This is the official implementation 
 **RCT: Random Consistency Training**
 </div>
 
-RCT is a semi-supervised training secheme for Sound Event Detection (SED). But we believe it has a more generalized usage!
+RCT is a semi-supervised training secheme for Sound Event Detection (SED). But we believe it has a more generalized usage on other semi-supervised implementations!
 
 RCT is constructed for SED, and we built it based on the baseline model for DCASE 2021 challenge. Please refer
-to [[1]](https://http://arxiv.org/abs/2110.11144) and [[2]](https://github.com/DCASE-REPO/DESED_task) for more details. 
+to [[1]](https://http://arxiv.org/abs/2110.11144) and [[2]](https://github.com/DCASE-REPO/DESED_task) for more details about the code architecture. The model is built based on [PytorchLightning](https://www.pytorchlightning.ai/), if you are not familiar with its workflow, you can just focus on the `training step` in the `sed_trainer_rct.py`.
 
 ## Training
 

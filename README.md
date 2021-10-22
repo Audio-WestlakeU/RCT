@@ -2,8 +2,8 @@
 
 Welcome to RCT-Random consistency training! This is the official implementation of RCT.
 
-[Paper](https://arxiv.org/abs/2110.11144) :star_struck: **|** [Issues](https://github.com/Audio-WestlakeU/RCT-Random-Consistency-Training/issues) :sweat_smile:
- **|** [Lab](https://github.com/Audio-WestlakeU) :hear_no_evil: **|** [Contact](sao_year@126.com) :kissing_heart:
+[Paper :star_struck](https://arxiv.org/abs/2110.11144): **|** [Issues :sweat_smile:](https://github.com/Audio-WestlakeU/RCT-Random-Consistency-Training/issues)
+ **|** [Lab :hear_no_evil:](https://github.com/Audio-WestlakeU) **|** [Contact :kissing_heart:](sao_year@126.com)
 
 ## Introduction
 

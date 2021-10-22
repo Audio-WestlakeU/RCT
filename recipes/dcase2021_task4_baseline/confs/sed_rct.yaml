@@ -64,7 +64,7 @@ net:
   nclass: 10
   attention: True
   n_RNN_cell: 128
-  activation: relu
+  activation: cg
   rnn_type: BGRU
   kernel_size: [3, 3, 3, 3, 3, 3, 3]
   padding: [1, 1, 1, 1, 1, 1, 1]

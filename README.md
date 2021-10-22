@@ -17,7 +17,7 @@ RCT is a semi-supervised training secheme for Sound Event Detection (SED). But w
 usage for other applications!
 
 Since the code is constructed for SED, we build RCT based on the baseline model for DCASE 2021 challenge. Please refer
-to [[1]](https://github.com/turpaultn/DESED) and [[2]](https://github.com/DCASE-REPO/DESED_task) for more details. 
+to [[1]](https://http://arxiv.org/abs/2110.11144) and [[2]](https://github.com/DCASE-REPO/DESED_task) for more details. 
 
 ## Training
 

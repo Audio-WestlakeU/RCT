@@ -22,8 +22,7 @@ to [[1]](https://http://arxiv.org/abs/2110.11144) and [[2]](https://github.com/D
 ## Training
 
 The training/validation data is obtained from the DCSAE2021 task4 [DESED dataset](https://github.com/turpaultn/DESED).
-The downloading of the dataset is quite complicated, no all data is available for the accesses. So, your testing result might
-be different with an incomplete validation dataset.
+The download of DESED is quite tedious and not all data is available for the accesses. You could ask for help from the DCASE committee to get the full dataset. Noted that, your testing result might be different with an incomplete validation dataset.
 
 To train the model, please first get the baseline architecture of [DCASE2021 task 4](https://github.com/DCASE-REPO/DESED_task)
 by:

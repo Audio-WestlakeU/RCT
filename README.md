@@ -2,7 +2,7 @@
 
 Welcome to RCT-Random consistency training! This is the official implementation of RCT. RCT has already been accepcted by INTERSPEECH 2022.
 
-[Paper :star_struck:](https://arxiv.org/abs/2110.11144) ![Paper :star_struck:](https://img.shields.io/badge/arXiv-2110.11144-brightgreen)**|** [Issues :sweat_smile:](https://github.com/Audio-WestlakeU/RCT-Random-Consistency-Training/issues)
+[Paper :star_struck:](https://arxiv.org/abs/2110.11144) ![Paper :star_struck:] **|** [Issues :sweat_smile:](https://github.com/Audio-WestlakeU/RCT-Random-Consistency-Training/issues)
  **|** [Lab :hear_no_evil:](https://github.com/Audio-WestlakeU) **|** [Contact :kissing_heart:](sao_year@126.com)
 
 ## Introduction

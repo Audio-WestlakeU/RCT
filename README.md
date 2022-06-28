@@ -1,8 +1,8 @@
 # RCT-Random-Consistency-Training
 
-Welcome to RCT-Random consistency training! This is the official implementation of RCT.
+Welcome to RCT-Random consistency training! This is the official implementation of RCT. RCT has already been accepcted by INTERSPEECH 2022.
 
-[Paper :star_struck:](https://arxiv.org/abs/2110.11144) **|** [Issues :sweat_smile:](https://github.com/Audio-WestlakeU/RCT-Random-Consistency-Training/issues)
+[![Paper :star_struck:](https://img.shields.io/badge/arXiv-2110.11144-brightgreen)](https://arxiv.org/abs/2110.11144) **|** [Issues :sweat_smile:](https://github.com/Audio-WestlakeU/RCT-Random-Consistency-Training/issues)
  **|** [Lab :hear_no_evil:](https://github.com/Audio-WestlakeU) **|** [Contact :kissing_heart:](sao_year@126.com)
 
 ## Introduction
@@ -42,22 +42,22 @@ to **YOUR_PATH_TO_DESED**. Then, please run:
 python train_sed_rct.py
 ```
 
-If you want to customize your training, you could modify the configuration file in 
+If you want to customize your training, you could modify the configuration file in
 `recipes/dcase2021_task4_baseline/confs/sed_rct.yaml`. We provided our own implementations of different data augmentations including
-[SpecAug](https://arxiv.org/pdf/1904.08779.pdf?source=post_page---------------------------), 
+[SpecAug](https://arxiv.org/pdf/1904.08779.pdf?source=post_page---------------------------),
 [FilterAug](https://github.com/frednam93/FilterAugSED), pitch shift and time shift.
 
 Using the proposed self-consistency loss is set as a trigger in `sed_rct.yaml` by
 ```angular2html
 augs:    
-    consis: True 
+    consis: True
 ```
 
 Of course, we encourage the implementation of other data augmentations to be added and tested using RCT.
 
 ## Results
 The result of a single model of RCT is around 40.12% and 61.39% for PSDS 1 and PSDS 2 under 7 trials.
-You may get higher or lower results according to your choice of seeds. We provided the results of 3 trials: 
+You may get higher or lower results according to your choice of seeds. We provided the results of 3 trials:
 <div align="center">
 
 | Trial num. | Seed | PSDS_1 | PSDS_2 |
